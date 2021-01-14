@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('school2.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+
+#text {
+    text-shadow: 1px 1px 3px rgb(13, 90, 153);
+    font-family: futura;
+    font-style: italic;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 242px;
+    color: rgb(18, 201, 43);
+    font-size: 5vw;
+    font-weight: bold;
+    -webkit-animation: colorchange 20s infinite alternate;
+}
+
+.btn {
+  position:absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  outline:none;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  color:rgba(255,255,255,0.9);
+     border-radius: 50px;
+     background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+     background-size :600%;
+     animation: 16s linear infinite;
+ 
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+<div class="w3-display-topmiddle">
+<h1 class="glow" id="text">Thanks for donating</h1>
+</div>
+<div class="w3-display-bottommiddle">
+    <button class="btn" onClick="window.location='index.html'">Click </button>
+</div>
+</div>
+     
+</body>
+</html> 
