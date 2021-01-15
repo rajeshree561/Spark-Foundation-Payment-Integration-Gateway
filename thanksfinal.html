@@ -28,6 +28,61 @@ body, html {height: 100%}
     -webkit-animation: colorchange 20s infinite alternate;
 }
 
+@-webkit-keyframes colorchange {
+    0% {
+
+      color: rgb(138, 138, 238);
+    }
+
+    10% {
+
+      color: #8e44ad;
+    }
+
+    20% {
+
+      color: #1abc9c;
+    }
+
+    30% {
+
+      color: #d35400;
+    }
+
+    40% {
+
+      color: rgb(188, 206, 33);
+    }
+
+    50% {
+
+      color: #7fccd6;
+    }
+
+    60% {
+
+      color: blue;
+    }
+
+    70% {
+
+      color: #bb3e87;
+    }
+    80% {
+
+      color: #f1c40f;
+    }
+
+    90% {
+
+      color: #2980b9;
+    }
+
+    100% {
+
+      color: pink;
+    }
+  }
 .btn {
   position:absolute;
   top: 80%;
@@ -40,13 +95,19 @@ body, html {height: 100%}
   padding: 16px 30px;
   border: none;
   cursor: pointer;
-  color:rgba(255,255,255,0.9);
+  color:rgba(65, 2, 2, 0.9);
      border-radius: 50px;
-     background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+     background: linear-gradient(-40deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
      background-size :600%;
      animation: 16s linear infinite;
  
   text-align: center;
+}
+.btn:hover {
+  background-image: linear-gradient(red, yellow);
+
+  background-color:rgb(230, 23, 23);
+  color: white;
 }
 
 </style>
@@ -54,10 +115,10 @@ body, html {height: 100%}
 <body>
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
 <div class="w3-display-topmiddle">
-<h1 class="glow" id="text">Thanks for donating</h1>
+<h1 class="glow" id="text" style="" >Thanks for donating</h1>
 </div>
 <div class="w3-display-bottommiddle">
-    <button class="btn" onClick="window.location='index.html'">Click </button>
+    <button class="btn" onClick="window.location='index.html'">Click to go back to home page</button>
 </div>
 </div>
      
